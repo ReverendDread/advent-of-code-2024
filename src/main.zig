@@ -1,8 +1,9 @@
 const std = @import("std");
 const types = @import("types.zig");
 const day01 = @import("day01.zig").day01();
+const day02 = @import("day02.zig").day02();
 
-const days = [_]types.AdventOfCodeDay{day01};
+const days = [_]types.AdventOfCodeDay{day01, day02};
 
 // allows us to run days from the command line with `zig run` and pass in the day number
 pub fn main() !void {
